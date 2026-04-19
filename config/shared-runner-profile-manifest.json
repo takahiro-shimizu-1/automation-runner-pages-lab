@@ -1,7 +1,7 @@
 {
   "version": 1,
   "selectedProfile": "deploy-enabled",
-  "runnerCommand": "npx -y @takahiro-shimizu-1/automation-runner@0.1.3",
+  "runnerCommand": "npx -y @takahiro-shimizu-1/automation-runner@0.1.4",
   "runnerPackage": {
     "name": "@takahiro-shimizu-1/automation-runner",
     "scope": "@takahiro-shimizu-1",
