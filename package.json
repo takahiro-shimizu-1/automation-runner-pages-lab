@@ -1,0 +1,11 @@
+{
+  "name": "automation-runner-pages-lab",
+  "private": true,
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "build": "npm --workspace app run build",
+    "test": "npm --workspace app run test"
+  }
+}

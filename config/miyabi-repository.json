@@ -1,0 +1,25 @@
+{
+  "repository": {
+    "slug": "takahiro-shimizu-1/automation-runner-pages-lab"
+  },
+  "workspaceGlobs": [
+    "app"
+  ],
+  "auditWorkspaceGlobs": [],
+  "deploy": {
+    "providerTargets": {
+      "github-pages": [
+        "app-site"
+      ]
+    },
+    "providerTargetProfiles": {
+      "github-pages": {
+        "app-site": {
+          "artifactPath": "app/dist",
+          "workspace": "app",
+          "dashboardData": false
+        }
+      }
+    }
+  }
+}
