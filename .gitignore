@@ -4,3 +4,4 @@ node_modules/
 dist/
 .env
 project_memory/tasks.json
+.npmrc
