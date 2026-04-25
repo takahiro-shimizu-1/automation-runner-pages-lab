@@ -1,7 +1,7 @@
 {
   "version": 1,
   "selectedProfile": "deploy-enabled",
-  "runnerCommand": "npx -y @takahiro-shimizu-1/automation-runner@0.1.13",
+  "runnerCommand": "npx -y @takahiro-shimizu-1/automation-runner@0.1.14",
   "runnerPackage": {
     "name": "@takahiro-shimizu-1/automation-runner",
     "scope": "@takahiro-shimizu-1",
@@ -18,6 +18,14 @@
     "requiredTools": ["bash", "gh", "jq", "python3"],
     "optionalToolsByProfile": {
       "deploy-enabled": ["gcloud"]
+    }
+  },
+  "gitnexus": {
+    "repoName": "automation-runner-pages-lab",
+    "portfolios": [],
+    "bootstrap": {
+      "enabled": true,
+      "defaultCommand": "automation-runner gitnexus-bootstrap"
     }
   },
   "bootstrapAssets": {
