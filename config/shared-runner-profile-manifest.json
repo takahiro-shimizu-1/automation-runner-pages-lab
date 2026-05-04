@@ -22,7 +22,15 @@
   },
   "gitnexus": {
     "repoName": "automation-runner-pages-lab",
-    "portfolios": [],
+    "registryName": "automation-runner-pages-lab",
+    "repoSlug": "takahiro-shimizu-1/automation-runner-pages-lab",
+    "portfolios": [
+      {
+        "name": "local-main",
+        "groupPath": "validation/pages",
+        "role": "validation"
+      }
+    ],
     "bootstrap": {
       "enabled": true,
       "defaultCommand": "automation-runner gitnexus-bootstrap"
